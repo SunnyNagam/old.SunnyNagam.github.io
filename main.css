@@ -1,1 +1,13 @@
-#bigtitle{color:blue;}
+*{
+	margin: 0px;	/*setting defaults so nothing messes with it later*/
+	padding: 0px;
+}
+h1{
+	font: bold 20px Tahoma;
+}
+header, section, footer, aside, nav, article{          /*for lame browsers*/
+	display:block;
+}
+body{
+	text-align: center;
+}
