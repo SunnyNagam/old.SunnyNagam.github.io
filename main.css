@@ -21,6 +21,7 @@ body{
 	background : #CC66FF;
 	border: 1px solid red;
 	padding: 20px;
+	text-align: center;
 }
 #topMenu{
 	background: #FF0033;
@@ -29,6 +30,23 @@ body{
 #topMenu li{
 	display:inline-block;
 	list-style:none;
-	padding:5px;
+	padding:10px;
 	font:bold 14px Tahoma;
+}
+#mainSection{
+	float: left;
+	width: 660px;
+	margin: 30px;  /* 720px 280left */
+}
+#sidebar{
+	float: left;
+	width: 220px;
+	margin: 20px 0px;
+	padding: 30px;
+}
+#foot{
+	clear:both;
+	text-align: center;
+	padding:  20px;
+	border-top: 2px solid green;
 }
