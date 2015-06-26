@@ -12,20 +12,19 @@ body{
 	text-align: center;
 }
 #bigWrapper{
-	border: 1px solid black;
 	width: 1000px;
 	margin: 20px auto;
 	text-align: left;
 }
 #topHeader{
 	background : #CC66FF;
-	border: 1px solid red;
 	padding: 20px;
 	text-align: center;
 }
 #topMenu{
 	background: #FF0033;
 	color: white;
+	text-align: center;
 }
 #topMenu li{
 	display:inline-block;
@@ -40,13 +39,26 @@ body{
 }
 #sidebar{
 	float: left;
+	background: #FF66FF;
 	width: 220px;
 	margin: 20px 0px;
 	padding: 30px;
+}
+aside header{
+	font: bold 14px Tahoma;
+	padding-bottom: 15px;
 }
 #foot{
 	clear:both;
 	text-align: center;
 	padding:  20px;
 	border-top: 2px solid green;
+}
+article {
+	background: #00CCFF;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+article footer{
+	text-align: right;
 }
