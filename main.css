@@ -11,3 +11,24 @@ header, section, footer, aside, nav, article{          /*for lame browsers*/
 body{
 	text-align: center;
 }
+#bigWrapper{
+	border: 1px solid black;
+	width: 1000px;
+	margin: 20px auto;
+	text-align: left;
+}
+#topHeader{
+	background : #CC66FF;
+	border: 1px solid red;
+	padding: 20px;
+}
+#topMenu{
+	background: #FF0033;
+	color: white;
+}
+#topMenu{
+	display:inline-block;
+	list-style:none;
+	padding:5px;
+	font:bold 14px Tahoma;
+}
