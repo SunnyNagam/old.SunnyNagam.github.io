@@ -26,7 +26,7 @@ body{
 	background: #FF0033;
 	color: white;
 }
-#topMenu{
+#topMenu li{
 	display:inline-block;
 	list-style:none;
 	padding:5px;
